@@ -75,6 +75,7 @@ body {
 }
 
 .hero-content > button {
+    flex-shrink: 0;
     color: var(--white);
     background-color: var(--primary);
     font-size: 16px;
@@ -152,6 +153,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 50px;
 }
 
 .cta-container h3 {
@@ -163,6 +165,7 @@ body {
 }
 
 .cta-container button {
+    flex-shrink: 0;
     background-color: var(--primary);
     color: var(--white);
     border: 2px solid var(--white);
